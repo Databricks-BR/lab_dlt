@@ -1,13 +1,10 @@
 {
-    "name": "Credit_cards_full_pipeline_YOUR_NAME",
+    "name": "Credit_cards_full_pipeline_SEU_NOME",
+    "catalog": "YOUR_CATALOG",
     "pipeline_type": "WORKSPACE",
     "clusters": [
         {
             "label": "default",
-            "custom_tags": {
-                "owner": "<SEU_EMAIL>",
-                "removeAfter": "2023-07-31"
-            },
             "autoscale": {
                 "min_workers": 1,
                 "max_workers": 3,
@@ -15,11 +12,7 @@
             }
         },
         {
-            "label": "maintenance",
-            "custom_tags": {
-                "owner": "<SEU_EMAIL>",
-                "removeAfter": "2023-07-31"
-            }
+            "label": "maintenance"
         }
     ],
     "development": true,
@@ -34,7 +27,6 @@
         }
     ],
     "edition": "ADVANCED",
-    "catalog": "YOUR_CATALOG",
     "configuration": {
         "landing_path": "dbfs:/Users/<SEU_EMAIL>/demos/dlt_credit_cards",
         "bronze_data_format": "json",
