@@ -4,9 +4,13 @@
 
 # COMMAND ----------
 
+default_path = f"""dbfs:/Users/{spark.sql("SELECT current_user() as my_username").collect()[0]["my_username"]}/demos/dlt_credit_cards"""
+
+# COMMAND ----------
+
 dbutils.widgets.removeAll()
-dbutils.widgets.text("nb_of_iterations", "1000", "How many iterations you want me to run?")
-dbutils.widgets.text("path", "dbfs:/Users/<SEU_EMAIL>/demos/dlt_credit_cards", "Where to put the data?")
+dbutils.widgets.text("nb_of_iterations", "100", "How many iterations you want me to run?")
+dbutils.widgets.text("path", default_path, "Where to put the data?")
 
 # COMMAND ----------
 

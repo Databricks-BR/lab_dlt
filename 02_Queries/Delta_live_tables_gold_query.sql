@@ -4,4 +4,4 @@ SELECT
   card_network,
   sum_bill_value
 FROM
-  YOUR_CATALOG.dlt_demo_credit_cards.gold_merchant_credit_card_transactions_daily_agg
+  main.dlt_demo_credit_cards.gold_merchant_credit_card_transactions_daily_agg
