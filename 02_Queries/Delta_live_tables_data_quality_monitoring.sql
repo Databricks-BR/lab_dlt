@@ -1,5 +1,5 @@
 -- Create a view to query the external table:
-CREATE OR REPLACE VIEW YOUR_CATALOG.dlt_demo_credit_cards.expectation_data_ingestion AS 
+CREATE OR REPLACE VIEW main.dlt_demo_credit_cards.expectation_data_ingestion AS 
 SELECT
   event_date as event_date,
   row_expectations.dataset as dataset,
@@ -44,5 +44,5 @@ select
     , sum(failing_records)/sum(failing_records+passing_records)*100 failure_rate
     , sum(failing_records) as failing_records
   	, sum(passing_records) as passing_records
-from YOUR_CATALOG.dlt_demo_credit_cards.expectation_data_ingestion dqm
+from main.dlt_demo_credit_cards.expectation_data_ingestion dqm
 group by day, dataset, expectation order by day

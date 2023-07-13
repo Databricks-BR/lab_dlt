@@ -7,4 +7,4 @@ select
 	,rcct.installments as `Parcelas`
 	,rcct.transaction_type as `Tipo de transação`
 from
-	YOUR_CATALOG.dlt_demo_credit_cards.merchant_credit_card_transactions rcct
+	main.dlt_demo_credit_cards.merchant_credit_card_transactions rcct
