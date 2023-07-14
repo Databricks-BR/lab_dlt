@@ -16,14 +16,12 @@ Com Delta Live Tables, defina facilmente pipelines de dados de ponta a ponta em 
 | # | Tópicos | Duração |
 | -- | -- | -- |
 | 1 | Conceito de Lakehouse e do Delta Live Tables | 30 min |
-| 2 | Laboratório 01 -         | 30 min |
-| 3 | Laboratório 02 -       | 30 min |
-| 4 | Laboratório 03 -             | 30 min |
-| 5 | Laboratório 04 -                                             | 30 min |
-| 6 | Laboratório 05 -                                  | 30 min |
-| 7 | Considerações finais e Referências Adicionais              | 30 min |
-| 8 | Perguntas e Respostas                                                              | 15 min |
-| 9 | Pesquisa de Satisfação                                                             |  5 min |
+| 2 | Laboratório 01 - Criando o pipeline de Delta Live Tables        | 30 min |
+| 3 | Laboratório 02 - Criando consultas SQL em nossos dados      | 30 min |
+| 4 | Laboratório 03 - Consolidando tudo em um único job            | 30 min |
+| 5 | Considerações finais e Referências Adicionais              | 30 min |
+| 6 | Perguntas e Respostas                                                              | 15 min |
+| 7 | Pesquisa de Satisfação                                                             |  5 min |
 
 </br>
 

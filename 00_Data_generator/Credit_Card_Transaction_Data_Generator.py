@@ -9,7 +9,7 @@ default_path = f"""dbfs:/Users/{spark.sql("SELECT current_user() as my_username"
 # COMMAND ----------
 
 dbutils.widgets.removeAll()
-dbutils.widgets.text("nb_of_iterations", "100", "How many iterations you want me to run?")
+dbutils.widgets.text("nb_of_iterations", "200", "How many iterations you want me to run?")
 dbutils.widgets.text("path", default_path, "Where to put the data?")
 
 # COMMAND ----------
@@ -160,7 +160,7 @@ class dataProducer():
         return measurement
 
     def generate_timestamp(self) -> datetime.timestamp:
-        date = (datetime.now().date() + timedelta(days=randint(-120, -61))).strftime("%Y-%m-%d")
+        date = (datetime.now().date() + timedelta(days=randint(-90, -1))).strftime("%Y-%m-%d")
         date_time = f"""{date} {self.generate_hour_of_day()}:{str(datetime.now().minute).zfill(2)}:{str(datetime.now().second).zfill(2)}.{str(datetime.now().microsecond).zfill(2)}"""
         return date_time
 
