@@ -34,8 +34,37 @@ Com Delta Live Tables, defina facilmente pipelines de dados de ponta a ponta em 
 * [Simplifying Change Data Capture With Databricks Delta Live Tables](https://www.databricks.com/blog/2022/04/25/simplifying-change-data-capture-with-databricks-delta-live-tables.html)
 * [Delta Live Tables SQL language reference](https://docs.databricks.com/delta-live-tables/sql-ref.html)
 
+</br></br>
 
+## Vídeos de Influencers
 
+Vídeos sobre Delta Live Tables em Português dos INFLUENCERS (sem vínculo com a Databricks):
+</br>
+
+* [**Canal**: Dados nas Alturas - **Influencer**: Clécio Silva](https://www.youtube.com/watch?v=OuIOQM1aKS0)
+* [**Canal**: Bytes de Dados - **Influencer**: Luan Moreno](https://www.youtube.com/watch?v=dRVntX-3FF4)
+* [**Canal**: Aprender Dados - **Influencer**: Bernardo Cambruzzi](https://www.youtube.com/watch?v=RwxzaT4qbCo)
+
+</br></br>
+
+## Exemplos de Código DLT - Notebooks - GITHUB
+
+* [Delta Live Tables Example Notebooks](https://github.com/databricks/delta-live-tables-notebooks)
+* [Insurance Claims Workflow](https://github.com/databricks-industry-solutions/dlt-insurance-claims)
+* [Point-of-Sale Streaming with Delta Live Tables](https://github.com/databricks-industry-solutions/pos-dlt/tree/main)
+
+</br></br>
+
+## Databricks ACADEMY
+
+Trilhas disponíveis (Learning Plan):
+* What is the Databricks Lakehouse Platform? (ID: E-Q079O1)
+* Data Engineering with Databricks V3 (ID: E-VR2871)
+* Advanced Data Engineering with Databricks (ID: E-19WXD1)
+</br></br>
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/trilha_academy.png" style="height: 300px;">  
+
+</br></br>
 
 ## Comunidade Databricks Brasil
 
@@ -45,16 +74,3 @@ Com Delta Live Tables, defina facilmente pipelines de dados de ponta a ponta em 
 
    <a href="https://github.com/Databricks-BR"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/databricks-br.png" style="width: 40px; height: 40px;"></a>  <a href="https://www.linkedin.com/groups/14100135"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/icon_linkedin.png" style="width: 35px; height: 35px;"></a>  <a href="https://www.meetup.com/pt-BR/databricks-brasil-oficial"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/icon_meetup.png" style="height: 40px;"></a>  <a href="https://bit.ly/databricks-slack-br"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/icon_slack.png" style="width: 35px; height: 35px;"></a>  <a href="https://www.youtube.com/channel/UCH3cq9mit-0UkTu1mTki20Q"><img src="https://raw.githubusercontent.com/Databricks-BR/Databricks-BR/main/images/icon_youtube.png" style="height: 38px;"></a>
 
-
-
-</br></br>
-
-## Databricks ACADEMY
-
-Trilhas disponíveis (Learning Plan):
-* What is the Databricks Lakehouse Platform? (ID: E-Q079O1)
-* Databricks SQL for Technical Onboarding (ID: E-VMWR71)
-* Data Analysis with Databricks SQL (ID: E-1QW751)
-
-
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/trilha_academy.png" style="height: 300px;">  
