@@ -62,7 +62,7 @@ Trilhas disponíveis (Learning Plan):
 * Data Engineering with Databricks V3 (ID: E-VR2871)
 * Advanced Data Engineering with Databricks (ID: E-19WXD1)
 </br></br>
-<img src="https://raw.githubusercontent.com/Databricks-BR/lab_sql/main/images/trilha_academy.png" style="height: 300px;">  
+<img src="https://raw.githubusercontent.com/Databricks-BR/lab_dlt/main/images/trilhas_academy.png" style="height: 300px;">  
 
 </br></br>
 
